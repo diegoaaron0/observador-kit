@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>motor</title>
+<style>
+  @font-face { font-family: "Mont"; src: url("fuentes/montserrat-latin-600-normal.woff") format("woff"); font-weight: 600; }
+  @font-face { font-family: "MontBlack"; src: url("fuentes/montserrat-latin-900-normal.woff") format("woff"); font-weight: 900; }
+  @font-face { font-family: "Playfair"; src: url("fuentes/playfair-display-latin-700-italic.woff") format("woff"); font-weight: 700; font-style: italic; }
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  #esc { position: relative; width: 1080px; height: 1920px; }
+  #esc canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+</style>
+</head>
+<body>
+  <div id="esc">
+    <canvas id="gl" width="1080" height="1920"></canvas>
+    <canvas id="ui" width="1080" height="1920"></canvas>
+  </div>
+  <script src="motor.js"></script>
+</body>
+</html>

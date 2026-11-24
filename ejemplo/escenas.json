@@ -1,0 +1,279 @@
+{
+ "titulo": "Tu corazón late con el de otros",
+ "estela": 0.62,
+ "subtitulos": {
+  "y": 1430
+ },
+ "final": {
+  "tipo": "zoom",
+  "desde": "fin+0.6"
+ },
+ "escenas": [
+  {
+   "en": "inicio",
+   "forma": "grupo",
+   "rigidez": 1.8,
+   "partes": [
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.65,
+     "dx": -210,
+     "peso": 0.5
+    },
+    {
+     "forma": "persona",
+     "color": "cian",
+     "escala": 0.65,
+     "dx": 210,
+     "peso": 0.5
+    }
+   ]
+  },
+  {
+   "en": "corazón",
+   "forma": "mascara",
+   "archivo": "disenos/corazon.png",
+   "color": "dorado",
+   "escala": {
+    "base": 1.0,
+    "osc": 0.07,
+    "vel": 2.2
+   }
+  },
+  {
+   "en": "pulso",
+   "forma": "mascara",
+   "archivo": "disenos/ecg.png",
+   "color": "rojo",
+   "borde": 0.9,
+   "rotulo": "Konvalinka y cols. · PNAS, 2011"
+  },
+  {
+   "en": "brasas",
+   "forma": "mascara",
+   "archivo": "disenos/fuego.png",
+   "color": "naranja",
+   "escala": {
+    "base": 1.0,
+    "osc": 0.025,
+    "vel": 1.6
+   },
+   "rotulo": "Konvalinka y cols. · PNAS, 2011"
+  },
+  {
+   "en": "público",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.3,
+     "dx": -360,
+     "dy": 120,
+     "peso": 0.2
+    },
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.3,
+     "dx": -180,
+     "dy": 120,
+     "peso": 0.2
+    },
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.3,
+     "dx": 0,
+     "dy": 120,
+     "peso": 0.2
+    },
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.3,
+     "dx": 180,
+     "dy": 120,
+     "peso": 0.2
+    },
+    {
+     "forma": "persona",
+     "color": "blanco",
+     "escala": 0.3,
+     "dx": 360,
+     "dy": 120,
+     "peso": 0.2
+    }
+   ]
+  },
+  {
+   "en": "familiares",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "persona",
+     "color": "dorado",
+     "escala": 0.5,
+     "dx": -220,
+     "peso": 0.5
+    },
+    {
+     "forma": "persona",
+     "color": "dorado",
+     "escala": 0.5,
+     "dx": 220,
+     "peso": 0.5
+    }
+   ]
+  },
+  {
+   "en": "aceleraba",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "mascara",
+     "archivo": "disenos/ecg.png",
+     "color": "rojo",
+     "borde": 0.9,
+     "escala": 0.85,
+     "dy": -180,
+     "peso": 0.5
+    },
+    {
+     "forma": "mascara",
+     "archivo": "disenos/ecg.png",
+     "color": "dorado",
+     "borde": 0.9,
+     "escala": 0.85,
+     "dy": 180,
+     "peso": 0.5
+    }
+   ],
+   "nota": "dos pulsos iguales"
+  },
+  {
+   "en": "desconocidos",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "mascara",
+     "archivo": "disenos/ecg.png",
+     "color": "rojo",
+     "borde": 0.9,
+     "escala": 0.85,
+     "dy": -180,
+     "peso": 0.5
+    },
+    {
+     "forma": "mascara",
+     "archivo": "disenos/ecg.png",
+     "color": "gris",
+     "borde": 0.9,
+     "escala": 0.8,
+     "dy": 180,
+     "dx": 110,
+     "brillo": 0.45,
+     "peso": 0.5
+    }
+   ],
+   "nota": "desfasado"
+  },
+  {
+   "en": "sincroniza",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "mascara",
+     "archivo": "disenos/corazon.png",
+     "color": "rojo",
+     "escala": 0.55,
+     "dx": -250,
+     "peso": 0.5
+    },
+    {
+     "forma": "mascara",
+     "archivo": "disenos/corazon.png",
+     "color": "dorado",
+     "escala": 0.55,
+     "dx": 250,
+     "peso": 0.5
+    }
+   ],
+   "escala": {
+    "base": 1.0,
+    "osc": 0.07,
+    "vel": 2.0
+   }
+  },
+  {
+   "en": "calma",
+   "forma": "persona",
+   "color": "cian",
+   "escala": {
+    "base": 1.0,
+    "osc": 0.03,
+    "vel": 0.35
+   }
+  },
+  {
+   "en": "agota",
+   "forma": "persona",
+   "color": "gris",
+   "brillo": 0.5,
+   "deshacer": {
+    "de": 0,
+    "a": 0.35,
+    "dur": 0.8
+   }
+  },
+  {
+   "en": "mira",
+   "forma": "ojo",
+   "mirar_x": {
+    "base": 0,
+    "osc": 0.65,
+    "vel": 0.4
+   }
+  },
+  {
+   "en": "cuerpo",
+   "forma": "grupo",
+   "partes": [
+    {
+     "forma": "mascara",
+     "archivo": "disenos/corazon.png",
+     "color": "rojo",
+     "escala": 0.55,
+     "dx": -250,
+     "peso": 0.5
+    },
+    {
+     "forma": "mascara",
+     "archivo": "disenos/corazon.png",
+     "color": "dorado",
+     "escala": 0.55,
+     "dx": 250,
+     "peso": 0.5
+    }
+   ],
+   "escala": {
+    "base": 1.0,
+    "osc": 0.07,
+    "vel": 2.0
+   }
+  },
+  {
+   "en": "ritmo",
+   "forma": "mascara",
+   "archivo": "disenos/corazon.png",
+   "color": "dorado",
+   "escala": {
+    "base": 1.0,
+    "osc": 0.07,
+    "vel": 2.0
+   },
+   "nota": "dos corazones, un ritmo"
+  }
+ ]
+}

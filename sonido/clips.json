@@ -1,0 +1,1054 @@
+{
+ "fuente": "wyzowl/sfx-kit — CC0 1.0 (dominio público)",
+ "clips": [
+  {
+   "id": "appear-dissolve",
+   "name": "Dissolve",
+   "category": "appear-and-vanish",
+   "duration": 1.15,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the element starts to dissolve; it fades away with it."
+   },
+   "para": "algo se materializa sin golpe",
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ]
+  },
+  {
+   "id": "appear-flip-slow",
+   "name": "Flip, slow",
+   "category": "appear-and-vanish",
+   "duration": 0.437,
+   "sync": {
+    "at": 0.407,
+    "meets": "arrival",
+    "how": "Put the tap (where it lands) on the frame the card lands; the flip's swish leads in before it."
+   },
+   "para": "un panel que gira y se posa",
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ]
+  },
+  {
+   "id": "appear-materialise",
+   "name": "Materialise",
+   "category": "appear-and-vanish",
+   "duration": 1.209,
+   "sync": {
+    "at": 0.026,
+    "meets": "action-start",
+    "how": "Start it as the element starts to appear; it settles at the end."
+   },
+   "para": "revelación suave",
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ]
+  },
+  {
+   "id": "appear-poof",
+   "name": "Poof",
+   "category": "appear-and-vanish",
+   "duration": 0.62,
+   "sync": {
+    "at": 0.026,
+    "meets": "instant",
+    "how": "Sync point on the frame it vanishes in its puff."
+   },
+   "para": "algo que se desvanece",
+   "evitar": [
+    "Things that simply slide or fade (a whoosh suits those)"
+   ]
+  },
+  {
+   "id": "bass-rumble-short",
+   "name": "Rumble, short",
+   "category": "booms-and-bass",
+   "duration": 1.528,
+   "sync": {
+    "at": 0.003,
+    "meets": "action-start",
+    "how": "Start it as the tension begins: it swells in and rolls away."
+   },
+   "para": "rumor bajo, tensión breve",
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "bass-sub-drop-medium",
+   "name": "Sub drop, medium",
+   "category": "booms-and-bass",
+   "duration": 2.154,
+   "sync": {
+    "at": 0.021,
+    "meets": "instant",
+    "how": "Sync point on the frame of the reveal, the beat or the hit (it's at the very start)."
+   },
+   "para": "grave que se siente más que se oye, bajo una revelación",
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "boom-drop-soft",
+   "name": "Boom drop, soft",
+   "category": "booms-and-bass",
+   "duration": 2.905,
+   "sync": {
+    "at": 0.019,
+    "meets": "instant",
+    "how": "Sync point on the frame of the reveal or the landing (it's at the very start). Leave the tail to ring out: the hall is part of it."
+   },
+   "para": "algo que se hunde: una capa que cae",
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "boom-hit-soft",
+   "name": "Boom hit, soft",
+   "category": "booms-and-bass",
+   "duration": 1.02,
+   "sync": {
+    "at": 0.031,
+    "meets": "instant",
+    "how": "Sync point on the frame of the reveal or the landing (it's at the very start). Leave the tail to ring out: the hall is part of it."
+   },
+   "para": "golpe grave y cálido para el giro final",
+   "evitar": [
+    "On top of speech: its low end masks it",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "cinematic-drum-big",
+   "name": "Cinematic drum hit, big",
+   "category": "cinematic-hits",
+   "duration": 2.178,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Sync point on the frame of the hit: the title landing, the cut, the reveal. Let the hall ring out."
+   },
+   "para": "un solo tambor: el dato que golpea",
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "cinematic-thunder-big",
+   "name": "Cinematic thunderclap, big",
+   "category": "cinematic-hits",
+   "duration": 3.813,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Sync point on the frame of the hit: the title landing, the cut, the reveal. Let the hall ring out."
+   },
+   "para": "trueno: reservado para el cierre más duro",
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Calm, understated or friendly films",
+    "Small elements and UI"
+   ]
+  },
+  {
+   "id": "data-bar-grow",
+   "name": "Bar growing",
+   "category": "data",
+   "duration": 0.35,
+   "sync": {
+    "at": 0.328,
+    "meets": "arrival",
+    "how": "Put the tick (near the end) on the frame the bar arrives; the swish leads in before it."
+   },
+   "para": "una barra que crece hasta su valor",
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ]
+  },
+  {
+   "id": "data-chart-reveal",
+   "name": "Chart reveal",
+   "category": "data",
+   "duration": 0.833,
+   "sync": {
+    "at": 0.007,
+    "meets": "action-start",
+    "how": "Start it with the reveal."
+   },
+   "para": "un diagrama que aparece",
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ]
+  },
+  {
+   "id": "data-countup-long",
+   "name": "Count-up, long",
+   "category": "data",
+   "duration": 2.219,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the count-up and match its length; the ticks ease in and out like the number. Put a number-land at the end."
+   },
+   "para": "contador de 2,2 s",
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ]
+  },
+  {
+   "id": "data-countup-medium",
+   "name": "Count-up, medium",
+   "category": "data",
+   "duration": 1.222,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the count-up and match its length; the ticks ease in and out like the number. Put a number-land at the end."
+   },
+   "para": "contador de 1,2 s",
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ]
+  },
+  {
+   "id": "data-countup-short",
+   "name": "Count-up, short",
+   "category": "data",
+   "duration": 0.621,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the count-up and match its length; the ticks ease in and out like the number. Put a number-land at the end."
+   },
+   "para": "contador corto",
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ]
+  },
+  {
+   "id": "data-decrease-medium",
+   "name": "Count-down, medium",
+   "category": "data",
+   "duration": 1.221,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the count-down and match its length; the ticks ease in and out like the number. Put a number-land at the end if the final figure matters."
+   },
+   "para": "una cifra que baja",
+   "evitar": [
+    "Counts much longer than the run: use the next length or a count tick per step"
+   ]
+  },
+  {
+   "id": "data-number-land",
+   "name": "Number landing",
+   "category": "data",
+   "duration": 0.233,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Sync point on the frame the final number appears."
+   },
+   "para": "la cifra aterriza",
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ]
+  },
+  {
+   "id": "data-progress-short",
+   "name": "Progress fill, short",
+   "category": "data",
+   "duration": 0.992,
+   "sync": {
+    "at": 0.007,
+    "meets": "action-start",
+    "how": "Start it with the fill and match its length; it brightens towards the end."
+   },
+   "para": "relleno de progreso de 1 s",
+   "evitar": [
+    "Things that aren't data (use whooshes, pops or shimmers)"
+   ]
+  },
+  {
+   "id": "data-tick",
+   "name": "Count tick",
+   "category": "data",
+   "duration": 0.018,
+   "sync": {
+    "at": 0.008,
+    "meets": "instant",
+    "how": "Sync point on each step of the number."
+   },
+   "para": "cada elemento de una serie",
+   "evitar": [
+    "Long counts (use a count-up run)"
+   ]
+  },
+  {
+   "id": "digital-blip-subtle",
+   "name": "Blip, subtle",
+   "category": "digital",
+   "duration": 0.137,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Sync point on the frame it happens."
+   },
+   "para": "pip bajo y discreto",
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ]
+  },
+  {
+   "id": "digital-scan-subtle",
+   "name": "Scan, subtle",
+   "category": "digital",
+   "duration": 0.841,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the process; fade or trim to its length."
+   },
+   "para": "barrido suave",
+   "evitar": [
+    "Natural, physical subjects (use foley, impacts or whooshes)",
+    "Moments that must cut through music (use clear)"
+   ]
+  },
+  {
+   "id": "impact-deep-soft",
+   "name": "Impact, deep, on a soft surface",
+   "category": "impacts",
+   "duration": 1.276,
+   "sync": {
+    "at": 0.045,
+    "meets": "instant",
+    "how": "Put the sync point (the moment of contact) exactly where the thing lands: usually the last frame of its move, or the first frame it's at rest."
+   },
+   "para": "acento grave en el giro final",
+   "evitar": [
+    "On top of speech: the bass masks it",
+    "Small elements",
+    "Moments that need a crisp edge"
+   ]
+  },
+  {
+   "id": "impact-heavy-soft",
+   "name": "Impact, heavy, on a soft surface",
+   "category": "impacts",
+   "duration": 0.32,
+   "sync": {
+    "at": 0.018,
+    "meets": "instant",
+    "how": "Put the sync point (the moment of contact) exactly where the thing lands: usually the last frame of its move, or the first frame it's at rest."
+   },
+   "para": "acento pesado pero sin filo",
+   "evitar": [
+    "Small elements",
+    "Moments that need a crisp edge"
+   ]
+  },
+  {
+   "id": "impact-light-firm",
+   "name": "Impact, light, on a firm surface",
+   "category": "impacts",
+   "duration": 0.099,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Put the sync point (the moment of contact) exactly where the thing lands: usually the last frame of its move, or the first frame it's at rest."
+   },
+   "para": "toque breve de madera",
+   "evitar": [
+    "Big, heavy moves"
+   ]
+  },
+  {
+   "id": "impact-light-soft",
+   "name": "Impact, light, on a soft surface",
+   "category": "impacts",
+   "duration": 0.166,
+   "sync": {
+    "at": 0.012,
+    "meets": "instant",
+    "how": "Put the sync point (the moment of contact) exactly where the thing lands: usually the last frame of its move, or the first frame it's at rest."
+   },
+   "para": "acento suave en una palabra",
+   "evitar": [
+    "Big, heavy moves",
+    "Moments that need a crisp edge"
+   ]
+  },
+  {
+   "id": "impact-medium-soft",
+   "name": "Impact, medium, on a soft surface",
+   "category": "impacts",
+   "duration": 0.21,
+   "sync": {
+    "at": 0.013,
+    "meets": "instant",
+    "how": "Put the sync point (the moment of contact) exactly where the thing lands: usually the last frame of its move, or the first frame it's at rest."
+   },
+   "para": "acento medio, mullido",
+   "evitar": [
+    "Tiny details",
+    "Moments that need a crisp edge"
+   ]
+  },
+  {
+   "id": "sting-minimal-short",
+   "name": "Logo sting, minimal, short",
+   "category": "logo-stings",
+   "duration": 1.263,
+   "sync": {
+    "at": 0.1,
+    "meets": "instant",
+    "how": "Put the sync point (the hit) on the frame the logo appears or lands: start = that frame − sync.at. In a long sting the hit comes about a second in, after a lead-in, so the sound starts before the logo does."
+   },
+   "para": "cierre",
+   "evitar": [
+    "Mid-film transitions: a sting says 'ending' or 'brand moment'",
+    "On top of speech: time its hit to a pause in the voice"
+   ]
+  },
+  {
+   "id": "pop-medium-in",
+   "name": "Pop in, medium",
+   "category": "pops",
+   "duration": 0.06,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Put the sync point where the element reaches full size (pop in, bubble) or where it vanishes (pop out). For a scale-up with overshoot, the sync point at the peak of the overshoot."
+   },
+   "para": "aparece una píldora o etiqueta",
+   "evitar": [
+    "Things leaving the screen (use pop out)"
+   ]
+  },
+  {
+   "id": "pop-small-in",
+   "name": "Pop in, small",
+   "category": "pops",
+   "duration": 0.04,
+   "sync": {
+    "at": 0.01,
+    "meets": "instant",
+    "how": "Put the sync point where the element reaches full size (pop in, bubble) or where it vanishes (pop out). For a scale-up with overshoot, the sync point at the peak of the overshoot."
+   },
+   "para": "aparece una figura pequeña",
+   "evitar": [
+    "Things leaving the screen (use pop out)",
+    "Big shapes"
+   ]
+  },
+  {
+   "id": "pop-small-out",
+   "name": "Pop out, small",
+   "category": "pops",
+   "duration": 0.051,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Put the sync point where the element reaches full size (pop in, bubble) or where it vanishes (pop out). For a scale-up with overshoot, the sync point at the peak of the overshoot."
+   },
+   "para": "desaparece una figura",
+   "evitar": [
+    "Things arriving (use pop in)",
+    "Big shapes"
+   ]
+  },
+  {
+   "id": "reverse-whoosh-medium-soft",
+   "name": "Reverse whoosh, medium and soft",
+   "category": "reverse-whooshes",
+   "duration": 0.861,
+   "sync": {
+    "at": 0.679,
+    "meets": "arrival",
+    "how": "Place it so its end (the sync point) lands on the moment of collapse, the cut or the hit: start = that moment − sync.at."
+   },
+   "para": "anticipación más larga antes de una revelación",
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "reverse-whoosh-short-soft",
+   "name": "Reverse whoosh, short and soft",
+   "category": "reverse-whooshes",
+   "duration": 0.509,
+   "sync": {
+    "at": 0.336,
+    "meets": "arrival",
+    "how": "Place it so its end (the sync point) lands on the moment of collapse, the cut or the hit: start = that moment − sync.at."
+   },
+   "para": "aire que se recoge antes de que algo aparezca",
+   "evitar": [
+    "Moments that should land softly (it stops dead)",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "faller-1s-soft",
+   "name": "Faller, 1 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 0.862,
+   "sync": {
+    "at": 0.01,
+    "meets": "release",
+    "how": "Put the sync point (at its very start) on the moment of release."
+   },
+   "para": "caída corta: algo que se apaga",
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "faller-2s-soft",
+   "name": "Faller, 2 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 1.831,
+   "sync": {
+    "at": 0.011,
+    "meets": "release",
+    "how": "Put the sync point (at its very start) on the moment of release."
+   },
+   "para": "algo se apaga o se degrada",
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "faller-4s-soft",
+   "name": "Faller, 4 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 3.859,
+   "sync": {
+    "at": 0.07,
+    "meets": "release",
+    "how": "Put the sync point (at its very start) on the moment of release."
+   },
+   "para": "caída larga: el vínculo que se degrada",
+   "evitar": [
+    "Arrivals (use a rise or an impact)",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "riser-1s-soft",
+   "name": "Riser, 1 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 1.19,
+   "sync": {
+    "at": 0.982,
+    "meets": "arrival",
+    "how": "Place it so its end (the sync point) lands on the reveal: start = reveal − sync.at."
+   },
+   "para": "subida corta hacia una cifra",
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "riser-2s-soft",
+   "name": "Riser, 2 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 2.189,
+   "sync": {
+    "at": 1.994,
+    "meets": "arrival",
+    "how": "Place it so its end (the sync point) lands on the reveal: start = reveal − sync.at."
+   },
+   "para": "tensión antes de una revelación",
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "riser-4s-soft",
+   "name": "Riser, 4 s, soft",
+   "category": "risers-and-fallers",
+   "duration": 4.184,
+   "sync": {
+    "at": 3.945,
+    "meets": "arrival",
+    "how": "Place it so its end (the sync point) lands on the reveal: start = reveal − sync.at."
+   },
+   "para": "subida larga bajo una frase entera",
+   "evitar": [
+    "Reveals that land before the rise ends: the peak is at its end",
+    "Big, energetic moments (use strong)"
+   ]
+  },
+  {
+   "id": "transform-empty",
+   "name": "Empty",
+   "category": "shape-changes",
+   "duration": 0.952,
+   "sync": {
+    "at": 0.003,
+    "meets": "action-start",
+    "how": "Start it with the change and match its length; it follows the change's progress from start to end."
+   },
+   "para": "algo que se vacía",
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ]
+  },
+  {
+   "id": "transform-fill",
+   "name": "Fill",
+   "category": "shape-changes",
+   "duration": 1.218,
+   "sync": {
+    "at": 0.003,
+    "meets": "action-start",
+    "how": "Start it with the change and match its length; it follows the change's progress from start to end."
+   },
+   "para": "algo que se llena",
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ]
+  },
+  {
+   "id": "transform-grow",
+   "name": "Grow",
+   "category": "shape-changes",
+   "duration": 0.693,
+   "sync": {
+    "at": 0.003,
+    "meets": "action-start",
+    "how": "Start it with the change and match its length; it follows the change's progress from start to end."
+   },
+   "para": "algo crece",
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ]
+  },
+  {
+   "id": "transform-morph",
+   "name": "Morph",
+   "category": "shape-changes",
+   "duration": 0.803,
+   "sync": {
+    "at": 0.002,
+    "meets": "action-start",
+    "how": "Start it with the change and match its length; it follows the change's progress from start to end."
+   },
+   "para": "una figura se convierte en otra",
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ]
+  },
+  {
+   "id": "transform-shrink",
+   "name": "Shrink",
+   "category": "shape-changes",
+   "duration": 0.604,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the change and match its length; it follows the change's progress from start to end."
+   },
+   "para": "algo que se encoge: de 1.500 a 150",
+   "evitar": [
+    "Hard, mechanical movements (use whooshes or impacts)"
+   ]
+  },
+  {
+   "id": "shimmer-medium-soft",
+   "name": "Shimmer, medium, soft",
+   "category": "shimmers",
+   "duration": 1.13,
+   "sync": {
+    "at": 0.011,
+    "meets": "instant",
+    "how": "Sync point near the start: put it on the frame the highlight or reveal appears; the shimmer trails after."
+   },
+   "para": "revelación de una cifra",
+   "evitar": [
+    "Negative or serious moments"
+   ]
+  },
+  {
+   "id": "shimmer-short-soft",
+   "name": "Shimmer, short, soft",
+   "category": "shimmers",
+   "duration": 0.478,
+   "sync": {
+    "at": 0.012,
+    "meets": "instant",
+    "how": "Sync point near the start: put it on the frame the highlight or reveal appears; the shimmer trails after."
+   },
+   "para": "destello sobre una palabra clave",
+   "evitar": [
+    "Negative or serious moments"
+   ]
+  },
+  {
+   "id": "swish-soft",
+   "name": "Swish, soft",
+   "category": "swishes-and-zips",
+   "duration": 0.223,
+   "sync": {
+    "at": 0.085,
+    "meets": "move-peak",
+    "how": "Put the sync point where the move is fastest: the middle of an ease-in-out move."
+   },
+   "para": "paneo lateral, multitud que se desplaza",
+   "evitar": [
+    "Big, heavy moves (use a whoosh)"
+   ]
+  },
+  {
+   "id": "zip-in-soft",
+   "name": "Zip in, soft",
+   "category": "swishes-and-zips",
+   "duration": 0.414,
+   "sync": {
+    "at": 0.294,
+    "meets": "arrival",
+    "how": "Put the sync point (near the end) on the frame it arrives and stops: start = arrival − sync.at."
+   },
+   "para": "algo entra desde un lado",
+   "evitar": [
+    "Big, heavy moves (use a whoosh)",
+    "Things leaving (use zip out)"
+   ]
+  },
+  {
+   "id": "zip-out-soft",
+   "name": "Zip out, soft",
+   "category": "swishes-and-zips",
+   "duration": 0.307,
+   "sync": {
+    "at": 0.032,
+    "meets": "release",
+    "how": "Put the sync point (right at its start) on the frame the move begins."
+   },
+   "para": "algo se va",
+   "evitar": [
+    "Big, heavy moves (use a whoosh)",
+    "Things arriving (use zip in)"
+   ]
+  },
+  {
+   "id": "time-clock",
+   "name": "Clock ticking",
+   "category": "time",
+   "duration": 3.037,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it with the scene: it ticks once a second from its very start. Loop it for longer."
+   },
+   "para": "reloj en pantalla",
+   "evitar": [
+    "Moments that need no sense of time"
+   ]
+  },
+  {
+   "id": "tone-ding-low",
+   "name": "Ding, low",
+   "category": "tones",
+   "duration": 1.14,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame the highlight appears."
+   },
+   "para": "marca discreta",
+   "evitar": [
+    "Errors or warnings"
+   ]
+  },
+  {
+   "id": "tone-ding-mid",
+   "name": "Ding, middle",
+   "category": "tones",
+   "duration": 1.064,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame the highlight appears."
+   },
+   "para": "campana discreta",
+   "evitar": [
+    "Errors or warnings"
+   ]
+  },
+  {
+   "id": "tone-step-1",
+   "name": "Step 1 of 5",
+   "category": "tones",
+   "duration": 0.513,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame each item appears; use the steps in order."
+   },
+   "para": "serie de 5, nota 1",
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ]
+  },
+  {
+   "id": "tone-step-2",
+   "name": "Step 2 of 5",
+   "category": "tones",
+   "duration": 0.445,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame each item appears; use the steps in order."
+   },
+   "para": "serie de 5, nota 2",
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ]
+  },
+  {
+   "id": "tone-step-3",
+   "name": "Step 3 of 5",
+   "category": "tones",
+   "duration": 0.403,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame each item appears; use the steps in order."
+   },
+   "para": "serie de 5, nota 3",
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ]
+  },
+  {
+   "id": "tone-step-4",
+   "name": "Step 4 of 5",
+   "category": "tones",
+   "duration": 0.372,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame each item appears; use the steps in order."
+   },
+   "para": "serie de 5, nota 4",
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ]
+  },
+  {
+   "id": "tone-step-5",
+   "name": "Step 5 of 5",
+   "category": "tones",
+   "duration": 0.347,
+   "sync": {
+    "at": 0,
+    "meets": "instant",
+    "how": "Sync point on the frame each item appears; use the steps in order."
+   },
+   "para": "serie de 5, nota 5",
+   "evitar": [
+    "Items appearing all at once (use a single pop)",
+    "Lists longer than five: there are five steps"
+   ]
+  },
+  {
+   "id": "whoosh-medium-soft",
+   "name": "Whoosh, medium and soft",
+   "category": "whooshes",
+   "duration": 0.543,
+   "sync": {
+    "at": 0.229,
+    "meets": "move-peak",
+    "how": "Ease-in-out: put the sync point at the middle of the move. Ease-out (fast start, slowing to a stop): about a quarter of the way in. Ease-in (slow start, fast exit): about three quarters of the way in."
+   },
+   "para": "cambio de escena normal",
+   "evitar": [
+    "Snappy, quick moves",
+    "Energetic edits"
+   ]
+  },
+  {
+   "id": "whoosh-slow-soft",
+   "name": "Whoosh, slow and soft",
+   "category": "whooshes",
+   "duration": 1.049,
+   "sync": {
+    "at": 0.452,
+    "meets": "move-peak",
+    "how": "Ease-in-out: put the sync point at the middle of the move. Ease-out (fast start, slowing to a stop): about a quarter of the way in. Ease-in (slow start, fast exit): about three quarters of the way in."
+   },
+   "para": "cambio de escena lento",
+   "evitar": [
+    "Quick moves",
+    "Anything that needs energy"
+   ]
+  },
+  {
+   "id": "writing-chalk-draw",
+   "name": "Chalk drawing",
+   "category": "writing-and-drawing",
+   "duration": 1.008,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+   },
+   "para": "trazos de tiza, textura de pizarra",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-highlighter",
+   "name": "Highlighter",
+   "category": "writing-and-drawing",
+   "duration": 0.381,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the highlight starts to draw; trim or fade to its length."
+   },
+   "para": "subrayar una palabra clave",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-marker-draw",
+   "name": "Whiteboard marker drawing",
+   "category": "writing-and-drawing",
+   "duration": 1.063,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+   },
+   "para": "trazos de rotulador, más grueso",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-pen-draw",
+   "name": "Pen drawing",
+   "category": "writing-and-drawing",
+   "duration": 1.269,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+   },
+   "para": "un trazo que se dibuja (anim dibuja)",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-pen-tick",
+   "name": "Pen tick",
+   "category": "writing-and-drawing",
+   "duration": 0.242,
+   "sync": {
+    "at": 0.155,
+    "meets": "instant",
+    "how": "Sync point on the frame the tick's upstroke finishes."
+   },
+   "para": "una marca corta",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-pen-write",
+   "name": "Pen writing",
+   "category": "writing-and-drawing",
+   "duration": 1.328,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+   },
+   "para": "escribir una palabra",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-pencil-draw",
+   "name": "Pencil drawing",
+   "category": "writing-and-drawing",
+   "duration": 1.448,
+   "sync": {
+    "at": 0,
+    "meets": "action-start",
+    "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+   },
+   "para": "trazos a lápiz",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-pencil-tick",
+   "name": "Pencil tick",
+   "category": "writing-and-drawing",
+   "duration": 0.242,
+   "sync": {
+    "at": 0.157,
+    "meets": "instant",
+    "how": "Sync point on the frame the tick's upstroke finishes."
+   },
+   "para": "marcar una casilla",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  },
+  {
+   "id": "writing-wipe",
+   "name": "Whiteboard wipe",
+   "category": "writing-and-drawing",
+   "duration": 0.736,
+   "sync": {
+    "at": 0.001,
+    "meets": "action-start",
+    "how": "Start it as the wipe starts; trim or fade to its length."
+   },
+   "para": "borrar la pantalla entre bloques",
+   "evitar": [
+    "Typed text (use keyboard)",
+    "Loud moments: it's a quiet, close sound"
+   ]
+  }
+ ]
+}

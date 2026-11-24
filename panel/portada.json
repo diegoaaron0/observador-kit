@@ -1,0 +1,21 @@
+{
+  "ancho": 1920,
+  "alto": 1080,
+  "duracion": 10.0,
+  "titulo": "CÓMO TE ENGAÑA TU CEREBRO",
+  "pildora": "EL OBSERVADOR · neurociencia",
+  "subtitulo": "SIETE COSAS QUE DECIDEN POR TI",
+  "logo": "eye",
+  "titulo_desde": 0.45,
+  "insignia_desde": 2.3,
+  "insignia_paso": 0.34,
+  "insignias": [
+    {"etiqueta": "MEMORIA",   "icono": "brain",         "color": "naranja"},
+    {"etiqueta": "ATENCIÓN",  "icono": "eye",           "color": "cian"},
+    {"etiqueta": "DECISIÓN",  "icono": "arrows-split",  "color": "naranja"},
+    {"etiqueta": "EMOCIÓN",   "icono": "heart",         "color": "cian"},
+    {"etiqueta": "DOLOR",     "icono": "bolt",          "color": "naranja"},
+    {"etiqueta": "TIEMPO",    "icono": "clock",         "color": "cian"},
+    {"etiqueta": "IDENTIDAD", "icono": "fingerprint",   "color": "naranja"}
+  ]
+}

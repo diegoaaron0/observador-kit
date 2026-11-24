@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>hud</title>
+<style>
+  @font-face { font-family: "Display"; src: url("fuentes/archivo-900.woff") format("woff"); font-weight: 900; }
+  @font-face { font-family: "Display"; src: url("fuentes/archivo-700.woff") format("woff"); font-weight: 700; }
+  @font-face { font-family: "Mono"; src: url("fuentes/mono-400.woff") format("woff"); font-weight: 400; }
+  @font-face { font-family: "Mono"; src: url("fuentes/mono-700.woff") format("woff"); font-weight: 700; }
+  @font-face { font-family: "Cond"; src: url("fuentes/cond-700.woff") format("woff"); font-weight: 700; }
+
+  html, body { margin: 0; padding: 0; background: #04070d; overflow: hidden; }
+  #esc { position: relative; overflow: hidden; background: #04070d; }
+  #fondo { position: absolute; inset: 0; }
+  #capa { position: absolute; inset: 0; }
+
+  .marca {
+    position: absolute; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .marca svg { width: 56%; height: 56%; overflow: visible; }
+  .marca svg path, .marca svg circle, .marca svg rect, .marca svg line, .marca svg polyline {
+    fill: none; stroke: currentColor; stroke-width: 1.7;
+    stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke;
+  }
+
+  .etq {
+    position: absolute; font-family: "Cond"; font-weight: 700;
+    text-transform: uppercase; text-align: center; white-space: nowrap;
+  }
+
+  #titulo {
+    position: absolute; width: 100%; text-align: center;
+    font-family: "Display"; font-weight: 900; color: #f2f6fb;
+  }
+  #pildora {
+    position: absolute; left: 50%; transform-origin: 50% 50%;
+    font-family: "Mono"; font-weight: 400; color: #5fd8f0;
+    border: 2px solid rgba(95,216,240,0.75); border-radius: 999px;
+    display: flex; align-items: center; justify-content: center; white-space: nowrap;
+  }
+  #sub {
+    position: absolute; width: 100%; text-align: center;
+    font-family: "Mono"; font-weight: 400; color: #7b8aa0; text-transform: uppercase;
+  }
+  #logo {
+    position: absolute; border-radius: 50%; background: #10323c;
+    display: flex; align-items: center; justify-content: center; color: #5fd8f0;
+  }
+  #logo svg { width: 52%; height: 52%; }
+</style>
+</head>
+<body>
+  <div id="esc">
+    <canvas id="fondo"></canvas>
+    <div id="capa">
+      <div id="logo"></div>
+      <div id="titulo"></div>
+      <div id="pildora"></div>
+      <div id="sub"></div>
+    </div>
+  </div>
+  <script src="hud.js"></script>
+</body>
+</html>

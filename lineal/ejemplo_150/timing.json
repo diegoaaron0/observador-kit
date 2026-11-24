@@ -1,0 +1,892 @@
+{
+ "duracion": 51.28,
+ "frases": [
+  {
+   "texto": "Sabes el nombre de mil quinientas personas.",
+   "inicio": 0.15,
+   "fin": 1.999,
+   "palabras": [
+    {
+     "texto": "Sabes",
+     "clave": false,
+     "t": 0.15
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 0.429
+    },
+    {
+     "texto": "nombre",
+     "clave": false,
+     "t": 0.569
+    },
+    {
+     "texto": "de",
+     "clave": false,
+     "t": 0.848
+    },
+    {
+     "texto": "mil",
+     "clave": true,
+     "t": 0.988
+    },
+    {
+     "texto": "quinientas",
+     "clave": true,
+     "t": 1.128
+    },
+    {
+     "texto": "personas.",
+     "clave": false,
+     "t": 1.547
+    }
+   ]
+  },
+  {
+   "texto": "Tu cerebro sostiene ciento cincuenta.",
+   "inicio": 2.049,
+   "fin": 3.909,
+   "palabras": [
+    {
+     "texto": "Tu",
+     "clave": false,
+     "t": 2.049
+    },
+    {
+     "texto": "cerebro",
+     "clave": false,
+     "t": 2.189
+    },
+    {
+     "texto": "sostiene",
+     "clave": false,
+     "t": 2.758
+    },
+    {
+     "texto": "ciento",
+     "clave": false,
+     "t": 3.177
+    },
+    {
+     "texto": "cincuenta.",
+     "clave": false,
+     "t": 3.456
+    }
+   ]
+  },
+  {
+   "texto": "Y de verdad sostiene cinco.",
+   "inicio": 3.959,
+   "fin": 5.43,
+   "palabras": [
+    {
+     "texto": "Y",
+     "clave": false,
+     "t": 3.959
+    },
+    {
+     "texto": "de",
+     "clave": false,
+     "t": 4.229
+    },
+    {
+     "texto": "verdad",
+     "clave": false,
+     "t": 4.369
+    },
+    {
+     "texto": "sostiene",
+     "clave": false,
+     "t": 4.648
+    },
+    {
+     "texto": "cinco.",
+     "clave": true,
+     "t": 5.067
+    }
+   ]
+  },
+  {
+   "texto": "Dunbar lo calculó comparando el tamaño del cerebro con el tamaño del grupo, primero en primates y después en nosotros.",
+   "inicio": 5.98,
+   "fin": 11.33,
+   "palabras": [
+    {
+     "texto": "Dunbar",
+     "clave": false,
+     "t": 5.98
+    },
+    {
+     "texto": "lo",
+     "clave": false,
+     "t": 6.224
+    },
+    {
+     "texto": "calculó",
+     "clave": false,
+     "t": 6.345
+    },
+    {
+     "texto": "comparando",
+     "clave": false,
+     "t": 6.711
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 7.198
+    },
+    {
+     "texto": "tamaño",
+     "clave": false,
+     "t": 7.32
+    },
+    {
+     "texto": "del",
+     "clave": false,
+     "t": 7.685
+    },
+    {
+     "texto": "cerebro",
+     "clave": false,
+     "t": 7.807
+    },
+    {
+     "texto": "con",
+     "clave": false,
+     "t": 8.172
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 8.294
+    },
+    {
+     "texto": "tamaño",
+     "clave": false,
+     "t": 8.416
+    },
+    {
+     "texto": "del",
+     "clave": false,
+     "t": 8.782
+    },
+    {
+     "texto": "grupo,",
+     "clave": false,
+     "t": 8.903
+    },
+    {
+     "texto": "primero",
+     "clave": false,
+     "t": 9.44
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 9.795
+    },
+    {
+     "texto": "primates",
+     "clave": false,
+     "t": 9.914
+    },
+    {
+     "texto": "y",
+     "clave": false,
+     "t": 10.269
+    },
+    {
+     "texto": "después",
+     "clave": false,
+     "t": 10.388
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 10.785
+    },
+    {
+     "texto": "nosotros.",
+     "clave": false,
+     "t": 10.903
+    }
+   ]
+  },
+  {
+   "texto": "Y encontró capas.",
+   "inicio": 12.07,
+   "fin": 13.375,
+   "palabras": [
+    {
+     "texto": "Y",
+     "clave": false,
+     "t": 12.07
+    },
+    {
+     "texto": "encontró",
+     "clave": false,
+     "t": 12.251
+    },
+    {
+     "texto": "capas.",
+     "clave": true,
+     "t": 12.794
+    }
+   ]
+  },
+  {
+   "texto": "Cinco en el centro. Quince cerca. Cincuenta alrededor. Ciento cincuenta en el borde.",
+   "inicio": 13.425,
+   "fin": 18.41,
+   "palabras": [
+    {
+     "texto": "Cinco",
+     "clave": false,
+     "t": 13.425
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 13.787
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 13.968
+    },
+    {
+     "texto": "centro.",
+     "clave": false,
+     "t": 14.149
+    },
+    {
+     "texto": "Quince",
+     "clave": false,
+     "t": 14.619
+    },
+    {
+     "texto": "cerca.",
+     "clave": false,
+     "t": 14.982
+    },
+    {
+     "texto": "Cincuenta",
+     "clave": false,
+     "t": 15.452
+    },
+    {
+     "texto": "alrededor.",
+     "clave": false,
+     "t": 15.995
+    },
+    {
+     "texto": "Ciento",
+     "clave": false,
+     "t": 16.828
+    },
+    {
+     "texto": "cincuenta",
+     "clave": false,
+     "t": 17.81
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 18.067
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 18.152
+    },
+    {
+     "texto": "borde.",
+     "clave": false,
+     "t": 18.238
+    }
+   ]
+  },
+  {
+   "texto": "Cada capa cuesta tiempo. No cariño. Tiempo.",
+   "inicio": 18.46,
+   "fin": 20.432,
+   "palabras": [
+    {
+     "texto": "Cada",
+     "clave": false,
+     "t": 18.46
+    },
+    {
+     "texto": "capa",
+     "clave": false,
+     "t": 18.632
+    },
+    {
+     "texto": "cuesta",
+     "clave": false,
+     "t": 18.803
+    },
+    {
+     "texto": "tiempo.",
+     "clave": true,
+     "t": 18.974
+    },
+    {
+     "texto": "No",
+     "clave": false,
+     "t": 19.366
+    },
+    {
+     "texto": "cariño.",
+     "clave": false,
+     "t": 19.452
+    },
+    {
+     "texto": "Tiempo.",
+     "clave": false,
+     "t": 20.17
+    }
+   ]
+  },
+  {
+   "texto": "Por eso cuando dejas de invertirlo, el vínculo se degrada en seis meses.",
+   "inicio": 20.482,
+   "fin": 24.11,
+   "palabras": [
+    {
+     "texto": "Por",
+     "clave": false,
+     "t": 20.482
+    },
+    {
+     "texto": "eso",
+     "clave": false,
+     "t": 21.203
+    },
+    {
+     "texto": "cuando",
+     "clave": false,
+     "t": 21.443
+    },
+    {
+     "texto": "dejas",
+     "clave": false,
+     "t": 21.683
+    },
+    {
+     "texto": "de",
+     "clave": false,
+     "t": 21.923
+    },
+    {
+     "texto": "invertirlo,",
+     "clave": false,
+     "t": 22.044
+    },
+    {
+     "texto": "el",
+     "clave": false,
+     "t": 22.596
+    },
+    {
+     "texto": "vínculo",
+     "clave": false,
+     "t": 22.716
+    },
+    {
+     "texto": "se",
+     "clave": false,
+     "t": 23.077
+    },
+    {
+     "texto": "degrada",
+     "clave": false,
+     "t": 23.197
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 23.557
+    },
+    {
+     "texto": "seis",
+     "clave": true,
+     "t": 23.677
+    },
+    {
+     "texto": "meses.",
+     "clave": true,
+     "t": 23.798
+    }
+   ]
+  },
+  {
+   "texto": "Sin pelea y sin aviso. Un día simplemente ya no es lo que era.",
+   "inicio": 24.55,
+   "fin": 28.847,
+   "palabras": [
+    {
+     "texto": "Sin",
+     "clave": false,
+     "t": 24.55
+    },
+    {
+     "texto": "pelea",
+     "clave": false,
+     "t": 24.705
+    },
+    {
+     "texto": "y",
+     "clave": false,
+     "t": 25.016
+    },
+    {
+     "texto": "sin",
+     "clave": false,
+     "t": 25.172
+    },
+    {
+     "texto": "aviso.",
+     "clave": false,
+     "t": 25.327
+    },
+    {
+     "texto": "Un",
+     "clave": false,
+     "t": 26.426
+    },
+    {
+     "texto": "día",
+     "clave": false,
+     "t": 26.582
+    },
+    {
+     "texto": "simplemente",
+     "clave": false,
+     "t": 26.737
+    },
+    {
+     "texto": "ya",
+     "clave": false,
+     "t": 27.358
+    },
+    {
+     "texto": "no",
+     "clave": false,
+     "t": 27.514
+    },
+    {
+     "texto": "es",
+     "clave": false,
+     "t": 27.669
+    },
+    {
+     "texto": "lo",
+     "clave": false,
+     "t": 27.825
+    },
+    {
+     "texto": "que",
+     "clave": false,
+     "t": 28.5
+    },
+    {
+     "texto": "era.",
+     "clave": false,
+     "t": 28.61
+    }
+   ]
+  },
+  {
+   "texto": "Hay un detalle que lo explica mejor.",
+   "inicio": 28.897,
+   "fin": 30.419,
+   "palabras": [
+    {
+     "texto": "Hay",
+     "clave": false,
+     "t": 28.897
+    },
+    {
+     "texto": "un",
+     "clave": false,
+     "t": 29.008
+    },
+    {
+     "texto": "detalle",
+     "clave": false,
+     "t": 29.118
+    },
+    {
+     "texto": "que",
+     "clave": false,
+     "t": 29.449
+    },
+    {
+     "texto": "lo",
+     "clave": false,
+     "t": 29.56
+    },
+    {
+     "texto": "explica",
+     "clave": false,
+     "t": 29.67
+    },
+    {
+     "texto": "mejor.",
+     "clave": false,
+     "t": 30.182
+    }
+   ]
+  },
+  {
+   "texto": "En una mesa, la conversación se parte cuando pasan de tres o cuatro.",
+   "inicio": 30.469,
+   "fin": 33.03,
+   "palabras": [
+    {
+     "texto": "En",
+     "clave": false,
+     "t": 30.469
+    },
+    {
+     "texto": "una",
+     "clave": false,
+     "t": 30.579
+    },
+    {
+     "texto": "mesa,",
+     "clave": false,
+     "t": 30.8
+    },
+    {
+     "texto": "la",
+     "clave": false,
+     "t": 31.087
+    },
+    {
+     "texto": "conversación",
+     "clave": false,
+     "t": 31.197
+    },
+    {
+     "texto": "se",
+     "clave": false,
+     "t": 31.639
+    },
+    {
+     "texto": "parte",
+     "clave": false,
+     "t": 31.749
+    },
+    {
+     "texto": "cuando",
+     "clave": false,
+     "t": 31.97
+    },
+    {
+     "texto": "pasan",
+     "clave": false,
+     "t": 32.191
+    },
+    {
+     "texto": "de",
+     "clave": false,
+     "t": 32.412
+    },
+    {
+     "texto": "tres",
+     "clave": true,
+     "t": 32.522
+    },
+    {
+     "texto": "o",
+     "clave": true,
+     "t": 32.633
+    },
+    {
+     "texto": "cuatro.",
+     "clave": true,
+     "t": 32.743
+    }
+   ]
+  },
+  {
+   "texto": "Por eso las cenas grandes siempre terminan divididas en dos.",
+   "inicio": 33.91,
+   "fin": 36.83,
+   "palabras": [
+    {
+     "texto": "Por",
+     "clave": false,
+     "t": 33.91
+    },
+    {
+     "texto": "eso",
+     "clave": false,
+     "t": 34.059
+    },
+    {
+     "texto": "las",
+     "clave": false,
+     "t": 34.357
+    },
+    {
+     "texto": "cenas",
+     "clave": false,
+     "t": 34.506
+    },
+    {
+     "texto": "grandes",
+     "clave": false,
+     "t": 34.804
+    },
+    {
+     "texto": "siempre",
+     "clave": false,
+     "t": 35.102
+    },
+    {
+     "texto": "terminan",
+     "clave": false,
+     "t": 35.4
+    },
+    {
+     "texto": "divididas",
+     "clave": false,
+     "t": 35.847
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 36.443
+    },
+    {
+     "texto": "dos.",
+     "clave": false,
+     "t": 36.592
+    }
+   ]
+  },
+  {
+   "texto": "Tu círculo no se elige una vez. Se elige cada semana, con las horas que repartes.",
+   "inicio": 37.62,
+   "fin": 41.907,
+   "palabras": [
+    {
+     "texto": "Tu",
+     "clave": false,
+     "t": 37.62
+    },
+    {
+     "texto": "círculo",
+     "clave": false,
+     "t": 37.728
+    },
+    {
+     "texto": "no",
+     "clave": false,
+     "t": 38.051
+    },
+    {
+     "texto": "se",
+     "clave": false,
+     "t": 38.158
+    },
+    {
+     "texto": "elige",
+     "clave": false,
+     "t": 38.266
+    },
+    {
+     "texto": "una",
+     "clave": false,
+     "t": 38.589
+    },
+    {
+     "texto": "vez.",
+     "clave": false,
+     "t": 38.804
+    },
+    {
+     "texto": "Se",
+     "clave": false,
+     "t": 38.976
+    },
+    {
+     "texto": "elige",
+     "clave": false,
+     "t": 39.084
+    },
+    {
+     "texto": "cada",
+     "clave": false,
+     "t": 39.407
+    },
+    {
+     "texto": "semana,",
+     "clave": true,
+     "t": 39.622
+    },
+    {
+     "texto": "con",
+     "clave": false,
+     "t": 40.32
+    },
+    {
+     "texto": "las",
+     "clave": false,
+     "t": 40.453
+    },
+    {
+     "texto": "horas",
+     "clave": false,
+     "t": 40.587
+    },
+    {
+     "texto": "que",
+     "clave": false,
+     "t": 40.853
+    },
+    {
+     "texto": "repartes.",
+     "clave": false,
+     "t": 40.987
+    }
+   ]
+  },
+  {
+   "texto": "Piensa en quién subió de capa este año.",
+   "inicio": 42.757,
+   "fin": 44.71,
+   "palabras": [
+    {
+     "texto": "Piensa",
+     "clave": false,
+     "t": 42.757
+    },
+    {
+     "texto": "en",
+     "clave": false,
+     "t": 43.023
+    },
+    {
+     "texto": "quién",
+     "clave": false,
+     "t": 43.157
+    },
+    {
+     "texto": "subió",
+     "clave": false,
+     "t": 43.43
+    },
+    {
+     "texto": "de",
+     "clave": false,
+     "t": 43.697
+    },
+    {
+     "texto": "capa",
+     "clave": false,
+     "t": 43.83
+    },
+    {
+     "texto": "este",
+     "clave": false,
+     "t": 44.097
+    },
+    {
+     "texto": "año.",
+     "clave": false,
+     "t": 44.363
+    }
+   ]
+  },
+  {
+   "texto": "Alguien bajó para que cupiera.",
+   "inicio": 45.14,
+   "fin": 46.222,
+   "palabras": [
+    {
+     "texto": "Alguien",
+     "clave": false,
+     "t": 45.14
+    },
+    {
+     "texto": "bajó",
+     "clave": false,
+     "t": 45.354
+    },
+    {
+     "texto": "para",
+     "clave": false,
+     "t": 45.567
+    },
+    {
+     "texto": "que",
+     "clave": false,
+     "t": 45.781
+    },
+    {
+     "texto": "cupiera.",
+     "clave": false,
+     "t": 45.887
+    }
+   ]
+  },
+  {
+   "texto": "Y no lo decidiste tú. Lo decidió tu calendario.",
+   "inicio": 46.272,
+   "fin": 48.48,
+   "palabras": [
+    {
+     "texto": "Y",
+     "clave": false,
+     "t": 46.272
+    },
+    {
+     "texto": "no",
+     "clave": false,
+     "t": 46.579
+    },
+    {
+     "texto": "lo",
+     "clave": false,
+     "t": 46.685
+    },
+    {
+     "texto": "decidiste",
+     "clave": false,
+     "t": 46.792
+    },
+    {
+     "texto": "tú.",
+     "clave": false,
+     "t": 47.219
+    },
+    {
+     "texto": "Lo",
+     "clave": false,
+     "t": 47.58
+    },
+    {
+     "texto": "decidió",
+     "clave": false,
+     "t": 47.674
+    },
+    {
+     "texto": "tu",
+     "clave": false,
+     "t": 47.955
+    },
+    {
+     "texto": "calendario.",
+     "clave": true,
+     "t": 48.049
+    }
+   ]
+  }
+ ]
+}

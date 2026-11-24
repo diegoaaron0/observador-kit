@@ -1,0 +1,36 @@
+@font-face { font-family: "Display"; src: url("fuentes/display.woff") format("woff"); font-weight: 900; }
+@font-face { font-family: "Mont"; src: url("fuentes/mont900.woff") format("woff"); font-weight: 900; }
+@font-face { font-family: "Mont"; src: url("fuentes/mont600.woff") format("woff"); font-weight: 600; }
+@font-face { font-family: "Cond"; src: url("fuentes/cond.woff") format("woff"); font-weight: 700; }
+
+html, body { margin: 0; padding: 0; background: #000; }
+#esc { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+#esc svg.fondo { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+
+/* Título con contorno grueso, como el de las miniaturas de referencia */
+.titulo {
+  position: absolute; width: 100%; text-align: center;
+  font-family: "Mont"; font-weight: 900; text-transform: uppercase;
+  line-height: 0.96; letter-spacing: -1px;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 20px #10131c;
+  filter: drop-shadow(0 10px 0 rgba(0,0,0,0.35));
+}
+.titulo span { display: block; }
+.l1 { color: #ffffff; }
+.l2 { color: #ffd12e; }
+.l3 { color: #ff3b30; }
+
+/* Etiqueta tipo nota adhesiva */
+.nota {
+  position: absolute; font-family: "Mont"; font-weight: 900;
+  background: #ffd12e; color: #1a1205; border-radius: 14px;
+  padding: 18px 26px; font-size: 40px; line-height: 1.1; text-align: center;
+  box-shadow: 0 10px 0 rgba(0,0,0,0.28);
+}
+
+/* los elementos animados giran y escalan desde su propio centro */
+#esc [data-anim] { transform-box: fill-box; transform-origin: 50% 50%; }
+#esc div[data-anim] { transform-box: border-box; }
+
+#esc [data-escena] { transform-box: view-box; transform-origin: 50% 46%; }

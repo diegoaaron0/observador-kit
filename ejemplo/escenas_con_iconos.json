@@ -1,0 +1,77 @@
+{
+  "estela": 0.62,
+  "inicio_formado": true,
+  "inicio_dispersion": 70,
+  "impulso_palabras_clave": 0.03,
+  "final": {"tipo": "zoom", "desde": "fin+0.9", "velocidad": 1.35},
+  "subtitulos": {"y": 1430, "tamano": 60, "color_clave": "dorado"},
+  "escenas": [
+    {"nota": "dos personas", "en": "inicio", "forma": "icono", "nombre": "friends", "alto": 560, "color": "blanco"},
+    {"nota": "corazón", "en": "corazón", "forma": "icono", "nombre": "heart-pulse", "alto": 600, "color": "rojo"},
+
+    {"nota": "un pueblo: casas", "en": "pueblo-0.15", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "building-cottage", "alto": 300, "color": "blanco", "dx": -300, "dy": 60, "peso": 0.3},
+      {"forma": "icono", "nombre": "building-cottage", "alto": 380, "color": "blanco", "dy": -40, "peso": 0.4},
+      {"forma": "icono", "nombre": "building-cottage", "alto": 290, "color": "blanco", "dx": 300, "dy": 70, "peso": 0.3}
+    ]},
+    {"nota": "España", "en": "España-0.1", "forma": "mapa", "pais": "España", "alto": 560, "color": "dorado",
+     "rotulo": "Konvalinka et al., PNAS, 2011"},
+    {"nota": "científicos midiendo", "en": "científicos", "forma": "icono", "nombre": "microscope", "alto": 560, "color": "cian"},
+    {"nota": "el pulso", "en": "pulso", "forma": "icono", "nombre": "activity-heartbeat", "alto": 420, "color": "rojo"},
+    {"nota": "caminar sobre brasas", "en": "caminaban", "forma": "icono", "nombre": "footprints", "alto": 460, "color": "blanco"},
+    {"nota": "brasas", "en": "brasas", "forma": "icono", "nombre": "flame-kindling", "alto": 620, "color": "naranja"},
+
+    {"nota": "el público", "en": "público-0.15", "forma": "icono", "nombre": "users-group", "alto": 520, "color": "blanco"},
+
+    {"nota": "familiares y amigos: dos pulsos iguales", "en": "familiares-0.1", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "activity-heartbeat", "alto": 300, "color": "rojo", "dy": -190, "peso": 0.5},
+      {"forma": "icono", "nombre": "activity-heartbeat", "alto": 300, "color": "dorado", "dy": 190, "peso": 0.5}
+    ]},
+    {"nota": "al mismo tiempo: se alinean", "en": "al", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "activity-heartbeat", "alto": 300, "color": "rojo", "dy": -150, "peso": 0.5},
+      {"forma": "icono", "nombre": "activity-heartbeat", "alto": 300, "color": "dorado", "dy": 150, "peso": 0.5}
+    ]},
+    {"nota": "desconocidos: uno se apaga", "en": "desconocidos", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "activity-heartbeat", "alto": 300, "color": "rojo", "dy": -190, "peso": 0.5},
+      {"forma": "icono", "nombre": "minus", "alto": 300, "color": "gris", "dy": 190, "brillo": 0.45, "peso": 0.5}
+    ]},
+
+    {"nota": "sincronía: dos corazones que laten juntos", "en": "sincroniza", "forma": "grupo",
+     "latido": {"amp": 0.045, "vel": 1.15}, "partes": [
+      {"forma": "icono", "nombre": "heart", "alto": 330, "color": "rojo", "dx": -250, "peso": 0.5},
+      {"forma": "icono", "nombre": "heart", "alto": 330, "color": "dorado", "dx": 250, "peso": 0.5}
+    ]},
+    {"nota": "quienes amas", "en": "amas", "forma": "icono", "nombre": "heart", "alto": 560,
+     "color": "rojo", "latido": {"amp": 0.05, "vel": 1.15}},
+    {"nota": "sin decidirlo", "en": "decidas-0.1", "forma": "icono", "nombre": "brain", "alto": 520, "color": "violeta"},
+    {"nota": "quizá", "en": "Quizá", "forma": "icono", "nombre": "question-mark", "alto": 430, "color": "cian"},
+    {"nota": "hay gente", "en": "gente", "forma": "icono", "nombre": "users-group", "alto": 470, "color": "blanco"},
+
+    {"nota": "gente que calma", "en": "calma", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "user", "alto": 340, "color": "cian", "dy": -170, "peso": 0.6},
+      {"forma": "icono", "nombre": "ripple", "alto": 210, "color": "cian", "dy": 230, "brillo": 0.85, "peso": 0.4}
+    ]},
+    {"nota": "estar: solo la calma", "en": "estar", "forma": "icono", "nombre": "ripple",
+     "alto": 330, "color": "cian", "vida": 2.2},
+    {"nota": "la otra gente", "en": "gente", "forma": "icono", "nombre": "users-group", "alto": 470, "color": "naranja"},
+    {"nota": "gente que agota", "en": "agota", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "user", "alto": 340, "color": "naranja", "dy": -170, "peso": 0.6},
+      {"forma": "icono", "nombre": "battery-1", "alto": 190, "color": "rojo", "dy": 240, "peso": 0.4}
+    ]},
+    {"nota": "sin decir nada", "en": "nada", "forma": "icono", "nombre": "message-off", "alto": 450, "color": "gris"},
+
+    {"nota": "mira: el iris se mueve de lado a lado", "en": "mira", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "eye", "trazos": [1], "alto": 300, "color": "blanco", "peso": 0.74},
+      {"forma": "icono", "nombre": "circle", "alto": 150, "color": "cian", "peso": 0.26,
+       "dx": {"base": 0, "osc": 115, "vel": 0.6}}
+    ]},
+    {"nota": "quién tienes cerca", "en": "cerca", "forma": "grupo", "partes": [
+      {"forma": "icono", "nombre": "user", "alto": 380, "color": "blanco", "dx": -150, "peso": 0.5},
+      {"forma": "icono", "nombre": "user", "alto": 380, "color": "cian", "dx": 150, "peso": 0.5}
+    ]},
+    {"nota": "latiendo", "en": "latiendo", "forma": "icono", "nombre": "heart-pulse", "alto": 560,
+     "color": "rojo", "latido": {"amp": 0.04, "vel": 1.3}},
+    {"nota": "a su ritmo", "en": "ritmo", "forma": "icono", "nombre": "heart-pulse", "alto": 620,
+     "color": "rojo", "latido": {"amp": 0.055, "vel": 1.6}}
+  ]
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+  @font-face { font-family: "Disp7"; src: url("fuentes/disp7.woff") format("woff"); font-weight: 700; }
+  #esc { background: #000; }
+  text { font-family: "Display"; font-weight: 900; fill: #fff; }
+  .neg { fill: #000; }
+  .etq { font-family: "Disp7"; font-weight: 700; font-size: 30px; letter-spacing: 5px; }
+  .mini { font-family: "Disp7"; font-weight: 700; font-size: 24px; letter-spacing: 4px; fill: #c9ced4; }
+  .cifra { font-size: 300px; letter-spacing: -6px; }
+</style></head>
+<body><div id="esc">
+<svg class="fondo" viewBox="0 0 1080 1920">
+<defs>
+  <pattern id="malla" width="34" height="34" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.085"/>
+  </pattern>
+  <filter id="halo" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="foco" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- el glifo de persona, la pieza que más se repite en este estilo -->
+  <g id="per" fill="none" stroke="#fff" stroke-width="7">
+    <circle cx="0" cy="-96" r="33"/>
+    <path d="M-44 40 V-26 A44 44 0 0 1 44 -26 V40"/>
+    <path d="M-44 40 H44"/>
+  </g>
+  <g id="perll" fill="#fff" stroke="none">
+    <circle cx="0" cy="-96" r="36"/>
+    <path d="M-46 40 V-26 A46 46 0 0 1 46 -26 V40 Z"/>
+  </g>
+</defs>
+
+<rect width="1080" height="1920" fill="#000"/>
+<rect width="1080" height="1920" fill="url(#malla)"/>
+
+<!-- ╔══ 1 · una fila de gente, una decide antes ═══════════════════════ -->
+<g data-escena="inicio">
+  <g data-en="inicio" data-anim="sube" data-dur="0.5">
+    <rect x="228" y="282" width="624" height="74" rx="37" fill="#fff"/>
+    <text class="etq neg" x="540" y="331" text-anchor="middle">LA DECISIÓN YA ESTÁ TOMADA</text>
+  </g>
+
+  <g data-en="inicio" data-anim="pan" data-dir="-1,0" data-amp="26">
+    <g filter="url(#halo)">
+      <line x1="-400" y1="1162" x2="1680" y2="1162" stroke="#8d939a" stroke-width="5" stroke-dasharray="24 22"/>
+      <g transform="translate(-220,1122)"><use href="#per"/></g>
+      <g transform="translate(-50,1122)"><use href="#per"/></g>
+      <g transform="translate(120,1122)"><use href="#per"/></g>
+      <g transform="translate(290,1122)"><use href="#per"/></g>
+      <g transform="translate(460,1122)"><use href="#per"/></g>
+      <g transform="translate(630,1122)"><use href="#perll"/></g>
+      <g transform="translate(800,1122)"><use href="#per"/></g>
+      <g transform="translate(970,1122)"><use href="#per"/></g>
+      <g transform="translate(1140,1122)"><use href="#per"/></g>
+      <g transform="translate(1310,1122)"><use href="#per"/></g>
+    </g>
+    <g data-en="decide" data-anim="entra" data-dur="0.4" filter="url(#halo)">
+      <rect x="470" y="880" width="320" height="66" rx="33" fill="#fff"/>
+      <text class="etq neg" x="630" y="925" text-anchor="middle">CEREBRO</text>
+      <line x1="630" y1="946" x2="630" y2="992" stroke="#fff" stroke-width="5"/>
+    </g>
+  </g>
+
+  <g data-en="=siete-0.1" data-anim="crece" data-dur="0.45" filter="url(#halo)">
+    <text class="cifra" x="540" y="1560" text-anchor="middle" font-size="190">7 s</text>
+    <text class="mini" x="540" y="1622" text-anchor="middle">ANTES DE QUE TÚ LO SEPAS</text>
+  </g>
+</g>
+
+<!-- ╔══ 2 · la máquina lo ve primero ═════════════════════════════════ -->
+<g data-escena="frase:2">
+  <g filter="url(#halo)">
+    <!-- línea de tiempo -->
+    <line x1="120" y1="1060" x2="960" y2="1060" stroke="#fff" stroke-width="5"/>
+    <g data-en="máquina-0.3" data-anim="entra" data-dur="0.4">
+      <line x1="300" y1="1010" x2="300" y2="1110" stroke="#fff" stroke-width="7"/>
+      <rect x="150" y="900" width="300" height="66" rx="33" fill="none" stroke="#fff" stroke-width="5"/>
+      <text class="etq" x="300" y="945" text-anchor="middle">LA MÁQUINA</text>
+      <line x1="300" y1="966" x2="300" y2="1010" stroke="#fff" stroke-width="4"/>
+    </g>
+    <g data-en="persona-0.3" data-anim="entra" data-dur="0.4">
+      <line x1="800" y1="1010" x2="800" y2="1110" stroke="#fff" stroke-width="7"/>
+      <rect x="668" y="1170" width="264" height="66" rx="33" fill="#fff"/>
+      <text class="etq neg" x="800" y="1215" text-anchor="middle">LA PERSONA</text>
+      <line x1="800" y1="1110" x2="800" y2="1170" stroke="#fff" stroke-width="4"/>
+    </g>
+    <!-- la distancia entre los dos -->
+    <g data-en="sintiera-1.2" data-anim="entra" data-dur="0.45">
+      <path d="M300 820 H800" stroke="#fff" stroke-width="5" fill="none"/>
+      <path d="M300 820 V860 M800 820 V860" stroke="#fff" stroke-width="5"/>
+      <rect x="470" y="742" width="160" height="62" rx="31" fill="#000" stroke="#fff" stroke-width="5"/>
+      <text class="etq" x="550" y="785" text-anchor="middle">7 s</text>
+    </g>
+    <g data-en="decisión" data-anim="entra" data-dur="0.4">
+      <path d="M340 1330 H740" stroke="#fff" stroke-width="5"/>
+      <path d="M700 1300 L744 1330 L700 1360" fill="none" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+      <text class="mini" x="540" y="1298" text-anchor="middle">LA SEÑAL VIAJA PRIMERO</text>
+    </g>
+  </g>
+</g>
+
+<!-- ╔══ 3 · el sesenta por ciento ════════════════════════════════════ -->
+<g data-escena="frase:3">
+  <g data-en="sesenta-0.2" data-anim="crece" data-dur="0.5" filter="url(#halo)">
+    <text class="cifra" x="540" y="880" text-anchor="middle">60%</text>
+    <text class="mini" x="540" y="946" text-anchor="middle">DE ACIERTO DE LA MÁQUINA</text>
+  </g>
+  <g data-en="=ciento" data-anim="entra" data-dur="0.5" filter="url(#halo)">
+    <g transform="translate(0,120) scale(0.62)">
+      <g transform="translate(300,1500)"><use href="#perll"/></g>
+      <g transform="translate(520,1500)"><use href="#perll"/></g>
+      <g transform="translate(740,1500)"><use href="#perll"/></g>
+      <g transform="translate(960,1500)"><use href="#perll"/></g>
+      <g transform="translate(1180,1500)"><use href="#perll"/></g>
+      <g transform="translate(1400,1500)"><use href="#perll"/></g>
+      <g transform="translate(300,1760)"><use href="#per"/></g>
+      <g transform="translate(520,1760)"><use href="#per"/></g>
+      <g transform="translate(740,1760)"><use href="#per"/></g>
+      <g transform="translate(960,1760)"><use href="#per"/></g>
+    </g>
+  </g>
+</g>
+
+<!-- ╔══ 4 · tú llegas último ═════════════════════════════════════════ -->
+<g data-escena="frase:4">
+  <g data-en="inicio" data-anim="pan" data-dir="0,-1" data-amp="7" filter="url(#halo)">
+    <path d="M400 300 L680 300 L880 1240 H200 Z" fill="url(#foco)"/>
+    <line x1="-200" y1="1246" x2="1280" y2="1246" stroke="#8d939a" stroke-width="5" stroke-dasharray="24 22"/>
+    <g transform="translate(540,1206) scale(1.5)"><use href="#perll"/></g>
+  </g>
+  <g data-en="decides-0.2" data-anim="entra" data-dur="0.4" filter="url(#halo)">
+    <rect x="150" y="620" width="340" height="68" rx="34" fill="none" stroke="#fff" stroke-width="5"/>
+    <text class="etq" x="320" y="665" text-anchor="middle">DECIDES</text>
+    <path d="M268 602 L372 706 M372 602 L268 706" stroke="#ff4d4d" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g data-en="=llegas" data-anim="entra" data-dur="0.4" filter="url(#halo)">
+    <rect x="590" y="620" width="356" height="68" rx="34" fill="#fff"/>
+    <text class="etq neg" x="768" y="665" text-anchor="middle">TE ENTERAS</text>
+  </g>
+</g>
+
+<!-- ╔══ 5 · y lo llamas tuyo ═════════════════════════════════════════ -->
+<g data-escena="frase:5">
+  <g filter="url(#halo)">
+    <line x1="-200" y1="1300" x2="1280" y2="1300" stroke="#8d939a" stroke-width="5" stroke-dasharray="24 22"/>
+    <g transform="translate(540,1246) scale(1.35)"><use href="#per"/></g>
+  </g>
+  <g data-en="=tuyo-0.5" data-anim="crece" data-dur="0.5" filter="url(#halo)">
+    <rect x="300" y="740" width="480" height="150" rx="75" fill="none" stroke="#fff" stroke-width="7"/>
+    <text x="540" y="846" text-anchor="middle" font-size="96" letter-spacing="4">¿TUYO?</text>
+  </g>
+</g>
+</svg>
+<script src="escena.js"></script>
+</div></body></html>
